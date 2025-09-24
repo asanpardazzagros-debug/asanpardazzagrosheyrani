@@ -1,0 +1,566 @@
+--------- beginning of main
+09-22 23:40:12.696  8544  8572 W unts.appscloner: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*549733019]{PCL[/system/framework/org.apache.http.legacy.jar*3951777099]#PCL[/system/framework/com.android.media.remotedisplay.jar*3743104114]#PCL[/system/framework/com.android.location.provider.jar*3175360614]#PCL[/system/framework/org.apache.http.legacy.jar*3951777099]} | DLC[];PCL[])
+09-22 23:40:12.699  8544  8544 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+09-22 23:40:12.706  8544  8572 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:86 and remote module com.google.android.gms.measurement.dynamite:158
+09-22 23:40:12.706  8544  8572 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 158
+09-22 23:40:12.706  8544  8572 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+09-22 23:40:12.737  8544  8572 W System  : ClassLoader referenced unknown path: 
+09-22 23:40:12.737  8544  8572 D nativeloader: Configuring clns-9 for other apk . target_sdk_version=36, uses_libraries=, library_path=/data/app/~~eP4rko4oz-NARDs_uOGxHg==/com.google.android.gms-aW3tq8RXdByepRl1hEv6mw==/lib/arm64:/data/app/~~eP4rko4oz-NARDs_uOGxHg==/com.google.android.gms-aW3tq8RXdByepRl1hEv6mw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+09-22 23:40:12.753  8544  8572 W unts.appscloner: ClassLoaderContext classpath element checksum mismatch. expected=549733019, found=1483202132 (DLC[];PCL[base.apk*549733019]{PCL[/system/framework/org.apache.http.legacy.jar*3951777099]#PCL[/system/framework/com.android.media.remotedisplay.jar*3743104114]#PCL[/system/framework/com.android.location.provider.jar*3175360614]#PCL[/system/framework/org.apache.http.legacy.jar*3951777099]} | DLC[];PCL[/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/base.apk*1483202132])
+09-22 23:40:12.801  8544  8544 D nativeloader: Load /data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libnrb.so using class loader ns clns-4 (caller=/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/base.apk!classes3.dex): ok
+09-22 23:40:12.802  8544  8602 D native  : Found attached 0
+09-22 23:40:12.802  8544  8602 D native  : Calling class is: java.lang.Class
+09-22 23:40:12.803  8544  8603 D native  : Found attached 0
+09-22 23:40:12.803  8544  8603 D native  : Calling class is: java.lang.Class
+09-22 23:40:12.831  8544  8600 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 13448; state: ENABLED
+09-22 23:40:12.981  8629  8629 I ppscloner:black: Using CollectorTypeCC GC.
+09-22 23:40:12.985  8629  8629 E ppscloner:black: Not starting debugger since process cannot load the jdwp agent.
+09-22 23:40:12.994  8629  8629 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-22 23:40:12.997  8629  8629 D ActivityThread: setConscryptValidator
+09-22 23:40:12.997  8629  8629 D ActivityThread: setConscryptValidator - put
+09-22 23:40:13.009  8629  8629 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 13448; state: ENABLED
+09-22 23:40:13.012  8544  8606 E unts.appscloner: No package ID 6a found for ID 0x6a0b000f.
+09-22 23:40:13.014  8544  8606 I FA      : App measurement initialized, version: 136000
+09-22 23:40:13.014  8544  8606 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+09-22 23:40:13.014  8544  8606 I FA      : To enable faster debug mode event logging run:
+09-22 23:40:13.014  8544  8606 I FA      :   adb shell setprop debug.firebase.analytics.app com.dual.space.parallel.apps.multiaccounts.appscloner
+09-22 23:40:13.069  8544  8606 I FA      : Tag Manager is not found and thus will not be used
+09-22 23:40:13.163  8629  8629 W ppscloner:black: Failed to find entry 'classes.dex': Entry not found
+09-22 23:40:13.164  8629  8629 W ppscloner:black: Failed to find entry 'classes.dex': Entry not found
+09-22 23:40:13.165  8629  8629 D nativeloader: Configuring clns-4 for other apk /data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/base.apk:/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/split_config.arm64_v8a.apk:/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/split_config.xxhdpi.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/lib/arm64:/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/base.apk!/lib/arm64-v8a:/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8
+09-22 23:40:13.176  8629  8629 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+09-22 23:40:13.181  8629  8629 V GraphicsEnvironment: ANGLE Developer option for 'com.dual.space.parallel.apps.multiaccounts.appscloner' set to: 'default'
+09-22 23:40:13.182  8629  8629 V GraphicsEnvironment: ANGLE GameManagerService for com.dual.space.parallel.apps.multiaccounts.appscloner: false
+09-22 23:40:13.182  8629  8629 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-22 23:40:13.186  8629  8629 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+09-22 23:40:13.190  8629  8629 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: Failed to hook bindService: 
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: java.lang.IllegalArgumentException: top.niunaijun.blackbox.fake.frameworks.BActivityManager is not an interface
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at java.lang.reflect.Proxy$ProxyClassFactory.apply(Proxy.java:635)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at java.lang.reflect.Proxy$ProxyClassFactory.apply(Proxy.java:602)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at java.lang.reflect.WeakCache$Factory.get(WeakCache.java:230)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at java.lang.reflect.WeakCache.get(WeakCache.java:127)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at java.lang.reflect.Proxy.getProxyClass0(Proxy.java:438)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at java.lang.reflect.Proxy.newProxyInstance(Proxy.java:873)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at top.niunaijun.blackbox.BlackBoxCore.hookBindService(BlackBoxCore.java:224)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at top.niunaijun.blackbox.BlackBoxCore.doAttachBaseContext(BlackBoxCore.java:135)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at com.dual.space.view.main.BlackBoxLoader.attachBaseContext(BlackBoxLoader.kt:100)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at com.dual.space.app.AppManager.doAttachBaseContext(AppManager.kt:29)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at com.dual.space.app.MyApplication.attachBaseContext(MyApplication.kt:63)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.app.Application.attach(Application.java:365)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1233)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1566)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1503)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7558)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.os.Looper.loopOnce(Looper.java:226)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.os.Looper.loop(Looper.java:313)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at android.app.ActivityThread.main(ActivityThread.java:8762)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at java.lang.reflect.Method.invoke(Native Method)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:604)
+09-22 23:40:13.198  8629  8629 E BlackBoxCore: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+09-22 23:40:13.255  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IShortcutManagerProxy@1e545a3
+09-22 23:40:13.264  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILauncherAppsProxy@97a982a
+09-22 23:40:13.267  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPowerManagerProxy@b16a8f7
+09-22 23:40:13.273  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IFingerprintManagerProxy@1ed51d0
+09-22 23:40:13.277  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IUserManagerProxy@6099585
+09-22 23:40:13.279  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDisplayManagerProxy@fa59fa6
+09-22 23:40:13.290  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVibratorServiceProxy@3d6fd7e
+09-22 23:40:13.292  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.libcore.OsStub@56e6dfb
+09-22 23:40:13.294  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.INotificationManagerProxy@a6b3e56
+09-22 23:40:13.299  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppWidgetManagerProxy@69c62ad
+09-22 23:40:13.302  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyManagerProxy@a7bc22e
+09-22 23:40:13.308  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDevicePolicyManagerProxy@4b2cbeb
+09-22 23:40:13.317  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPersistentDataBlockServiceProxy@d6a45f4
+09-22 23:40:13.320  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityTaskManagerProxy@e1de219
+09-22 23:40:13.326  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccountManagerProxy@ac4bb8d
+09-22 23:40:13.330  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPermissionManagerProxy@5f7ef8e
+09-22 23:40:13.333  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPhoneSubInfoProxy@728a1fd
+09-22 23:40:13.334  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageStatsManagerProxy@63d7bc0
+09-22 23:40:13.336  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@8df13b5
+09-22 23:40:13.338  8629  8629 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@8df13b5
+09-22 23:40:13.338  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.INetworkManagementServiceProxy@e9702d8
+09-22 23:40:13.340  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@24b046d
+09-22 23:40:13.343  8629  8629 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@24b046d
+09-22 23:40:13.343  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAutofillManagerProxy@68754f0
+09-22 23:40:13.346  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@43758f
+09-22 23:40:13.353  8629  8629 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@43758f
+09-22 23:40:13.353  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityManagerProxy@7de49fa
+09-22 23:40:13.359  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAlarmManagerProxy@55106b4
+09-22 23:40:13.361  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.HCallbackProxy@f0fcfd9
+09-22 23:40:13.362  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccessibilityManagerProxy@ba49095
+09-22 23:40:13.364  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IConnectivityManagerProxy@99d84e4
+09-22 23:40:13.369  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiManagerProxy@4f76149
+09-22 23:40:13.373  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPackageManagerProxy@6028c7c
+09-22 23:40:13.377  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.ContentServiceStub@e888b8b
+09-22 23:40:13.378  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IGraphicsStatsProxy@6ddef14
+09-22 23:40:13.379  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageManagerProxy@8cf13bd
+09-22 23:40:13.383  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IJobServiceProxy@d6c72fe
+09-22 23:40:13.386  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWindowManagerProxy@c976d7b
+09-22 23:40:13.394  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaSessionManagerProxy@9986762
+09-22 23:40:13.403  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaRouterServiceProxy@eb0c94f
+09-22 23:40:13.411  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityClientProxy@617c6c8
+09-22 23:40:13.415  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILocationManagerProxy@a857d99
+09-22 23:40:13.423  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVpnManagerProxy@b058c6a
+09-22 23:40:13.426  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppOpsManagerProxy@a24dc37
+09-22 23:40:13.432  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyRegistryProxy@c2d1b2f
+09-22 23:40:13.435  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDeviceIdentifiersPolicyProxy@19e4928
+09-22 23:40:13.437  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.RestrictionsManagerStub@f1d457d
+09-22 23:40:13.439  8629  8629 D HookManager: hook: top.niunaijun.blackbox.fake.delegate.AppInstrumentation@5cc4dbe
+--------- beginning of system
+09-22 23:40:13.535  8629  8629 D ActivityThread: Loading provider com.dual.space.parallel.apps.multiaccounts.appscloner.blackbox.SystemCallProvider: top.niunaijun.blackbox.core.system.SystemCallProvider
+09-22 23:40:13.535  8629  8629 D SystemCallProvider: call: VM, Bundle[{_B_|_server_name_=package_manager}]
+09-22 23:40:13.536  8629  8629 D BlackBoxCore: getService: package_manager, top.niunaijun.blackbox.core.system.pm.BPackageManagerService@3b48d3b
+09-22 23:40:13.559  8629  8651 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+09-22 23:40:13.560  8544  8544 D BlackBoxCore: getService: activity_manager, android.os.BinderProxy@4895d8
+09-22 23:40:13.560  8629  8651 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=76]
+09-22 23:40:13.561  8544  8544 D BlackBoxCore: getService: job_manager, android.os.BinderProxy@99fcd31
+09-22 23:40:13.561  8629  8651 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+09-22 23:40:13.561  8544  8544 D BlackBoxCore: getService: package_manager, android.os.BinderProxy@e757c16
+09-22 23:40:13.562  8629  8651 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+09-22 23:40:13.562  8544  8544 D BlackBoxCore: getService: storage_manager, android.os.BinderProxy@2d8b997
+09-22 23:40:13.562  8629  8651 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=80]
+09-22 23:40:13.562  8544  8544 D BlackBoxCore: getService: user_manager, android.os.BinderProxy@9d3784
+09-22 23:40:13.563  8629  8651 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+09-22 23:40:13.564  8544  8544 D BlackBoxCore: getService: xposed_manager, android.os.BinderProxy@df30b6d
+09-22 23:40:13.564  8629  8651 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+09-22 23:40:13.564  8544  8544 D BlackBoxCore: getService: account_manager, android.os.BinderProxy@14543a2
+09-22 23:40:13.565  8629  8650 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+09-22 23:40:13.565  8544  8544 D BlackBoxCore: getService: location_manager, android.os.BinderProxy@6655833
+09-22 23:40:13.565  8629  8651 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=96]
+09-22 23:40:13.565  8544  8544 D BlackBoxCore: getService: notification_manager, android.os.BinderProxy@47847f0
+09-22 23:40:13.580  8544  8679 D OpenGLRenderer: RenderThread::requireGlContext()
+09-22 23:40:13.583  8629  8629 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 13448; state: ENABLED
+09-22 23:40:13.584  8629  8629 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+09-22 23:40:13.587  8629  8629 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.2.12 for com.dual.space.parallel.apps.multiaccounts.appscloner
+09-22 23:40:13.596  8544  8679 D OpenGLRenderer: RenderThread::setGrContext()
+09-22 23:40:13.626  8629  8700 W ppscloner:black: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*549733019]{PCL[/system/framework/org.apache.http.legacy.jar*3951777099]#PCL[/system/framework/com.android.media.remotedisplay.jar*3743104114]#PCL[/system/framework/com.android.location.provider.jar*3175360614]#PCL[/system/framework/org.apache.http.legacy.jar*3951777099]} | DLC[];PCL[])
+09-22 23:40:13.628  8629  8700 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:86 and remote module com.google.android.gms.measurement.dynamite:158
+09-22 23:40:13.628  8629  8700 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 158
+09-22 23:40:13.628  8629  8700 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+09-22 23:40:13.644  8629  8700 W System  : ClassLoader referenced unknown path: 
+09-22 23:40:13.644  8629  8700 D nativeloader: Configuring clns-5 for other apk . target_sdk_version=36, uses_libraries=, library_path=/data/app/~~eP4rko4oz-NARDs_uOGxHg==/com.google.android.gms-aW3tq8RXdByepRl1hEv6mw==/lib/arm64:/data/app/~~eP4rko4oz-NARDs_uOGxHg==/com.google.android.gms-aW3tq8RXdByepRl1hEv6mw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+09-22 23:40:13.650  8544  8544 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 13448; state: ENABLED
+09-22 23:40:13.656  8629  8700 W ppscloner:black: ClassLoaderContext classpath element checksum mismatch. expected=549733019, found=1483202132 (DLC[];PCL[base.apk*549733019]{PCL[/system/framework/org.apache.http.legacy.jar*3951777099]#PCL[/system/framework/com.android.media.remotedisplay.jar*3743104114]#PCL[/system/framework/com.android.location.provider.jar*3175360614]#PCL[/system/framework/org.apache.http.legacy.jar*3951777099]} | DLC[];PCL[/data/app/~~pvV5VZuvM2TE-_1TgozVsg==/com.dual.space.parallel.apps.multiaccounts.appscloner-slenitwkSsyF8qJ6wFhwDQ==/base.apk*1483202132])
+09-22 23:40:13.696  8544  8544 I DecorView: [INFO] isPopOver=false config=true
+09-22 23:40:13.696  8544  8544 I DecorView: updateCaptionType: isFloating=false isApplication=true hasWindowDecorCaption=false this=DecorView@a3e47c0[]
+09-22 23:40:13.696  8544  8544 D DecorView: setCaptionType = 0, this = DecorView@a3e47c0[]
+09-22 23:40:13.698  8544  8544 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=420 msg=resources_loaded
+09-22 23:40:13.698  8544  8544 I DecorView: setWindowBackground: isPopOver=false color=ffffffff d=android.graphics.drawable.ColorDrawable@611043e
+09-22 23:40:13.709  8544  8544 D TAG_1   : setup_billing_client: nullnull
+09-22 23:40:13.720  8544  8544 I PlayCore: UID: [13448]  PID: [8544] AppUpdateService : requestUpdateInfo(com.dual.space.parallel.apps.multiaccounts.appscloner)
+09-22 23:40:13.721  8544  8727 I PlayCore: UID: [13448]  PID: [8544] AppUpdateService : Initiate binding to the service.
+09-22 23:40:13.721  8629  8724 E ppscloner:black: No package ID 6a found for ID 0x6a0b000f.
+09-22 23:40:13.722  8629  8724 I FA      : App measurement initialized, version: 136000
+09-22 23:40:13.722  8629  8724 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+09-22 23:40:13.722  8629  8724 I FA      : To enable faster debug mode event logging run:
+09-22 23:40:13.722  8629  8724 I FA      :   adb shell setprop debug.firebase.analytics.app com.dual.space.parallel.apps.multiaccounts.appscloner
+09-22 23:40:13.741  8544  8732 I UserMessagingPlatform: Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("78999FBD1E07B8858B87D2F752C40AA5") to set this as a debug device.
+09-22 23:40:13.742  8544  8732 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+09-22 23:40:13.743  8544  8732 D UserMessagingPlatform: Stored info not exists: IABGPP_HDR_GppString
+09-22 23:40:13.743  8544  8732 D UserMessagingPlatform: Stored info not exists: IABGPP_GppSID
+09-22 23:40:13.743  8544  8732 D UserMessagingPlatform: Stored info not exists: IABUSPrivacy_String
+09-22 23:40:13.746  8544  8544 I MSHandlerLifeCycle: check: return. pkg=com.dual.space.parallel.apps.multiaccounts.appscloner parent=null callers=com.android.internal.policy.DecorView.setVisibility:4412 android.app.ActivityThread.handleResumeActivity:5476 android.app.servertransaction.ResumeActivityItem.execute:54 android.app.servertransaction.ActivityTransactionItem.execute:45 android.app.servertransaction.TransactionExecutor.executeLifecycleState:176 
+09-22 23:40:13.746  8544  8544 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@a3e47c0[]
+09-22 23:40:13.757  8544  8679 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+09-22 23:40:13.768  8544  8544 D InsetsController: onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 83 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(443, 0 - 637, 83), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.625} cutoutSpec={M36.95,0C26.35,0,24.15,3.8,23.15,9.8 l-0.1,0.7c-1.7,9.6-9.3,17.2-18.9,18.9c-12.7,2.2-24.8-6.2-27-18.9 c0,0-0.1-0.7-0.1-0.7C-24.15,3.8,-26.25,0,-36.95,0Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=84, center=Point(84, 84)}, RoundedCorner{position=TopRight, radius=84, center=Point(996, 84)}, RoundedCorner{position=BottomRight, radius=84, center=Point(996, 2256)}, RoundedCorner{position=BottomLeft, radius=84, center=Point(84, 2256)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(0, 0 - 116, 83) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,83], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2214][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1080,0][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,115], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2214][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,83], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,83], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,2214][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false} } host=com.dual.space.parallel.apps.multiaccounts.appscloner/com.dual.space.view.main.SplashActivity from=android.view.ViewRootImpl.setView:1732
+09-22 23:40:13.770  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: setView = com.android.internal.policy.DecorView@a3e47c0 TM=true
+09-22 23:40:13.772  8544  8544 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@a3e47c0[SplashActivity]
+09-22 23:40:13.774  8544  8544 D LicenseClient: Connected to the licensing service.
+09-22 23:40:13.774  8544  8744 D LicenseClient: Sending request to licensing service...
+09-22 23:40:13.788  8544  8581 D CompatibilityChangeReporter: Compat change id reported: 194532703; UID 13448; state: ENABLED
+09-22 23:40:13.796  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: performTraversals params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+09-22 23:40:13.796  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]:   fl=81810100
+09-22 23:40:13.796  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]:   pfl=12020040
+09-22 23:40:13.796  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]:   bhv=DEFAULT
+09-22 23:40:13.796  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]:   fitSides= naviIconColor=0}
+09-22 23:40:13.797  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+09-22 23:40:13.797  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]:   fl=81810100
+09-22 23:40:13.797  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]:   pfl=12020040
+09-22 23:40:13.797  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]:   bhv=DEFAULT
+09-22 23:40:13.797  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]:   fitSides= naviIconColor=0}
+09-22 23:40:13.806  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: updateBlastSurfaceIfNeeded mBlastBufferQueue=null isSameSurfaceControl=false
+09-22 23:40:13.807  8544  8544 I BLASTBufferQueue: new BLASTBufferQueue, mName= ViewRootImpl@1f5187c[SplashActivity] mNativeObject= 0x72e9c75a00 sc.mNativeObject= 0x72dbc27ec0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283 
+09-22 23:40:13.807  8544  8544 I BLASTBufferQueue: update, w= 1080 h= 2340 mName = ViewRootImpl@1f5187c[SplashActivity] mNativeObject= 0x72e9c75a00 sc.mNativeObject= 0x72dbc27ec0 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:84 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2909 android.view.ViewRootImpl.relayoutWindow:9847 android.view.ViewRootImpl.performTraversals:3884 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 
+09-22 23:40:13.808  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)0 dur=9 res=0x3 s={true 0x72dbbd5800} ch=true seqId=0
+09-22 23:40:13.816  8544  8732 I WebViewFactory: Loading com.google.android.webview version 140.0.7339.51 (code 733905133)
+09-22 23:40:13.816  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: mThreadedRenderer.initialize() mSurface={isValid=true 0x72dbbd5800} hwInitialized=true
+09-22 23:40:13.820  8544  8679 D OpenGLRenderer: eglCreateWindowSurface
+09-22 23:40:13.823  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: reportNextDraw android.view.ViewRootImpl.performTraversals:4438 android.view.ViewRootImpl.doTraversal:3116 android.view.ViewRootImpl$TraversalRunnable.run:10885 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 
+09-22 23:40:13.823  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: Setup new sync id=0
+09-22 23:40:13.823  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: Setting syncFrameCallback
+09-22 23:40:13.823  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: registerCallbacksForSync syncBuffer=false
+09-22 23:40:13.825  8544  8745 I Gralloc4: mapper 4.x is not supported
+09-22 23:40:13.826  8544  8745 W Gralloc3: mapper 3.x is not supported
+09-22 23:40:13.830  8544  8732 W unts.appscloner: Failed to find entry 'classes.dex': Entry not found
+09-22 23:40:13.830  8544  8747 I ViewRootImpl@1f5187c[SplashActivity]: Received frameDrawingCallback syncResult=0 frameNum=1.
+09-22 23:40:13.830  8544  8747 I ViewRootImpl@1f5187c[SplashActivity]: Setting up sync and frameCommitCallback
+09-22 23:40:13.831  8544  8732 D nativeloader: Configuring clns-10 for other apk /data/app/~~9NI0LkdqP5fyHA0OATcN2A==/com.google.android.trichromelibrary_733905133-6WGibgPeMj1cG06FaDoF2w==/base.apk. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~xciiUK-RjKmnmqbueG4GPA==/com.google.android.webview-t1hHucJxvganOBZUHApVWg==/lib/arm64:/data/app/~~xciiUK-RjKmnmqbueG4GPA==/com.google.android.webview-t1hHucJxvganOBZUHApVWg==/base.apk!/lib/arm64-v8a:/data/app/~~9NI0LkdqP5fyHA0OATcN2A==/com.google.android.trichromelibrary_733905133-6WGibgPeMj1cG06FaDoF2w==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+09-22 23:40:13.831  8544  8732 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libveengine.arcsoft.so:liblow_light_hdr.arcsoft.so:libhigh_dynamic_range.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libImageScreener.camera.samsung.so:libMyFilter.camera.samsung.so:libtensorflowLite.myfilter.camera.samsung.so:libtensorflowlite_inference_api.myfilter.camera.samsung.so:libEventFinder.camera.samsung.so:libSmartScan.camera.samsung.so:libRectify.camera.samsung.so:libDocRectifyWrapper.camera.samsung.so:libUltraWideDistortionCorrection.camera.samsung.so:libWideDistortionCorrection.camera.samsung.so:libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so:libHprFace_GAE_api.camera.samsung.so:libFace_Landmark_API.camera.samsung.so:libHprFace_GAE_jni.camera.samsung.so:libFacialBase
+09-22 23:40:13.831  8544  8745 I gralloc : Arm Module v1.0
+09-22 23:40:13.835  8544  8745 W Gralloc4: allocator 4.x is not supported
+09-22 23:40:13.836  8544  8745 W Gralloc3: allocator 3.x is not supported
+09-22 23:40:13.879  8544  8732 D nativeloader: Configuring clns-11 for other apk /data/app/~~xciiUK-RjKmnmqbueG4GPA==/com.google.android.webview-t1hHucJxvganOBZUHApVWg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~xciiUK-RjKmnmqbueG4GPA==/com.google.android.webview-t1hHucJxvganOBZUHApVWg==/lib/arm64:/data/app/~~xciiUK-RjKmnmqbueG4GPA==/com.google.android.webview-t1hHucJxvganOBZUHApVWg==/base.apk!/lib/arm64-v8a:/data/app/~~9NI0LkdqP5fyHA0OATcN2A==/com.google.android.trichromelibrary_733905133-6WGibgPeMj1cG06FaDoF2w==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+09-22 23:40:13.932  8544  8744 D LicenseClient: Request to licensing service sent.
+09-22 23:40:13.943  8544  8557 I LicenseClient: License check succeeded.
+09-22 23:40:13.986  8544  8679 I BLASTBufferQueue: [ViewRootImpl@1f5187c[SplashActivity]#0](f:0,a:0) onFrameAvailable the first frame is available
+09-22 23:40:13.987  8544  8679 I ViewRootImpl@1f5187c[SplashActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+09-22 23:40:13.988  8544  8679 D OpenGLRenderer: CFMS:: SetUp Pid : 8544    Tid : 8679
+09-22 23:40:14.007  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: onSyncComplete
+09-22 23:40:14.007  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4503 
+09-22 23:40:14.008  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0x72e9942000
+09-22 23:40:14.016  8544  8544 I PlayCore: UID: [13448]  PID: [8544] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+09-22 23:40:14.018  8544  8727 I PlayCore: UID: [13448]  PID: [8544] AppUpdateService : linkToDeath
+09-22 23:40:14.019  8544  8544 D app_purchased: not_purchase_app_MyApplication
+09-22 23:40:14.025  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: MSG_WINDOW_FOCUS_CHANGED 1 0
+09-22 23:40:14.025  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0x72dbbd5800}
+09-22 23:40:14.026  8544  8544 D InputMethodManager: startInputInner - Id : 0
+09-22 23:40:14.026  8544  8544 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-22 23:40:14.073  8544  8544 D InputMethodManager: startInputInner - Id : 0
+09-22 23:40:14.115  8544  8544 D InsetsController: onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 83 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(443, 0 - 637, 83), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.625} cutoutSpec={M36.95,0C26.35,0,24.15,3.8,23.15,9.8 l-0.1,0.7c-1.7,9.6-9.3,17.2-18.9,18.9c-12.7,2.2-24.8-6.2-27-18.9 c0,0-0.1-0.7-0.1-0.7C-24.15,3.8,-26.25,0,-36.95,0Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=84, center=Point(84, 84)}, RoundedCorner{position=TopRight, radius=84, center=Point(996, 84)}, RoundedCorner{position=BottomRight, radius=84, center=Point(996, 2256)}, RoundedCorner{position=BottomLeft, radius=84, center=Point(84, 2256)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(0, 0 - 116, 83) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,83], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2214][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1080,0][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,115], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2214][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,83], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,83], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,2214][1080,2340], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_IME, mFrame=[0,0][0,0], mVisibleFrame=[0,1349][1080,2340], mVisible=false, mInsetsRoundedCornerFrame=false} } host=com.dual.space.parallel.apps.multiaccounts.appscloner/com.dual.space.view.main.SplashActivity from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:6740
+09-22 23:40:14.179  8544  8557 I PlayCore: UID: [13448]  PID: [8544] OnRequestInstallCallback : onRequestInfo
+09-22 23:40:14.179  8544  8727 I PlayCore: UID: [13448]  PID: [8544] AppUpdateService : Unbind from service.
+09-22 23:40:14.187  8544  8732 I cr_WVCFactoryProvider: version=140.0.7339.51 (733905133) minSdkVersion=29 multiprocess=true packageId=2 splits=config.arm64_v8a,config.xxhdpi
+09-22 23:40:14.194  8544  8544 D ContentValues: No Update available
+09-22 23:40:14.202  8544  8732 D nativeloader: Load /data/app/~~9NI0LkdqP5fyHA0OATcN2A==/com.google.android.trichromelibrary_733905133-6WGibgPeMj1cG06FaDoF2w==/base.apk!/lib/arm64-v8a/libmonochrome_64.so using class loader ns clns-11 (caller=/data/app/~~xciiUK-RjKmnmqbueG4GPA==/com.google.android.webview-t1hHucJxvganOBZUHApVWg==/base.apk): ok
+09-22 23:40:14.247  8544  8732 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-11 (caller=/data/app/~~xciiUK-RjKmnmqbueG4GPA==/com.google.android.webview-t1hHucJxvganOBZUHApVWg==/base.apk): ok
+09-22 23:40:14.297  8544  8767 I chromium: [0922/234014.269403:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+09-22 23:40:14.302  8544  8767 I chromium: [0922/234014.302202:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+09-22 23:40:14.394  8544  8544 I cr_LibraryLoader: Successfully loaded native library
+09-22 23:40:14.406  8544  8544 I cr_CachingUmaRecorder: Flushed 14 samples from 14 histograms, 0 samples were dropped.
+09-22 23:40:14.452  8544  8544 I cr_CombinedPProvider: #registerProvider() provider:WV.zj@f1ed3f7 isPolicyCacheEnabled:false policyProvidersSize:0
+09-22 23:40:14.500  8544  8544 I cr_PolicyProvider: #setManagerAndSource() 0
+09-22 23:40:14.722  8544  8544 I cr_CombinedPProvider: #linkNativeInternal() 1
+09-22 23:40:14.724  8544  8544 I cr_AppResProvider: #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+09-22 23:40:14.726  8544  8544 I cr_PolicyProvider: #notifySettingsAvailable() 0
+09-22 23:40:14.726  8544  8544 I cr_CombinedPProvider: #onSettingsAvailable() 0
+09-22 23:40:14.726  8544  8544 I cr_CombinedPProvider: #flushPolicies()
+09-22 23:40:15.230  8544  8544 W chromium: [WARNING:android_webview/browser/network_service/net_helpers.cc:143] HTTP Cache size is: 20971520
+09-22 23:40:15.304  8544  8544 D CompatibilityChangeReporter: Compat change id reported: 214741472; UID 13448; state: ENABLED
+09-22 23:40:15.375  8544  8860 I CameraManagerGlobal: Connecting to camera service
+09-22 23:40:15.395  8544  8860 D VendorTagDescriptor: addVendorDescriptor: vendor tag id 14172875900359437128 added
+09-22 23:40:15.498  8544  8860 I CameraManager: registerAvailabilityCallback: Is device callback = false
+09-22 23:40:15.518  8544  8649 I CameraManagerGlobal: Camera 0 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client app.rbmain.a API Level 1User Id 0
+09-22 23:40:15.518  8544  8649 I CameraManagerGlobal: Camera 1 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.android.smartface API Level 2User Id 0
+09-22 23:40:15.518  8544  8649 I CameraManagerGlobal: Camera 2 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2User Id 0
+09-22 23:40:15.520  8544  8860 I CameraManagerGlobal: postSingleUpdate device: camera id 0 status STATUS_PRESENT
+09-22 23:40:15.520  8544  8860 I CameraManagerGlobal: postSingleUpdate device: camera id 1 status STATUS_PRESENT
+09-22 23:40:15.520  8544  8860 I CameraManagerGlobal: postSingleUpdate device: camera id 2 status STATUS_PRESENT
+09-22 23:40:15.521  8544  8860 I CameraManagerGlobal: postSingleUpdate device: camera id 3 status STATUS_PRESENT
+09-22 23:40:15.521  8544  8649 I CameraManagerGlobal: Camera 20 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2User Id 0
+09-22 23:40:15.521  8544  8649 I CameraManagerGlobal: Camera 23 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2User Id 0
+09-22 23:40:15.521  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:15.522  8544  8649 I CameraManagerGlobal: Camera 4 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client android.system API Level 2User Id 0
+09-22 23:40:15.522  8544  8649 I CameraManagerGlobal: Camera 50 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2User Id 0
+09-22 23:40:15.523  8544  8649 I CameraManagerGlobal: Camera 52 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2User Id 0
+09-22 23:40:18.612  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:18.652  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:19.419  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:19.469  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:22.682  8544  8574 E FirebaseCrashlytics: Settings request failed.
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: Failed to get FIS auth token
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: java.util.concurrent.ExecutionException: com.google.firebase.installations.FirebaseInstallationsException: Firebase Installations Service is unavailable. Please try again later.
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.android.gms.tasks.Tasks.zza(com.google.android.gms:play-services-tasks@@18.1.0:5)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.android.gms.tasks.Tasks.await(com.google.android.gms:play-services-tasks@@18.1.0:9)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.GmsRpc.setDefaultAttributesToBundle(GmsRpc.java:260)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.GmsRpc.startRpc(GmsRpc.java:222)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.GmsRpc.getToken(GmsRpc.java:180)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.FirebaseMessaging.lambda$blockingGetToken$10$com-google-firebase-messaging-FirebaseMessaging(FirebaseMessaging.java:610)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.FirebaseMessaging$$ExternalSyntheticLambda6.start(Unknown Source:6)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.RequestDeduplicator.getOrStartGetTokenRequest(RequestDeduplicator.java:67)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.FirebaseMessaging.blockingGetToken(FirebaseMessaging.java:606)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.SyncTask.maybeRefreshToken(SyncTask.java:121)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.messaging.SyncTask.run(SyncTask.java:91)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.android.gms.common.util.concurrent.zza.run(com.google.android.gms:play-services-basement@@18.3.0:2)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at java.lang.Thread.run(Thread.java:1119)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: Caused by: com.google.firebase.installations.FirebaseInstallationsException: Firebase Installations Service is unavailable. Please try again later.
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.installations.remote.FirebaseInstallationServiceClient.createFirebaseInstallation(FirebaseInstallationServiceClient.java:208)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.installations.FirebaseInstallations.registerFidWithServer(FirebaseInstallations.java:530)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.installations.FirebaseInstallations.doNetworkCallIfNecessary(FirebaseInstallations.java:385)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.installations.FirebaseInstallations.lambda$doRegistrationOrRefresh$2$com-google-firebase-installations-FirebaseInstallations(FirebaseInstallations.java:374)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at com.google.firebase.installations.FirebaseInstallations$$ExternalSyntheticLambda1.run(Unknown Source:4)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-22 23:40:22.726  8544  8598 E FirebaseMessaging: 	... 1 more
+09-22 23:40:22.809  8544  8549 I unts.appscloner: Background concurrent copying GC freed 8348KB AllocSpace bytes, 63(2528KB) LOS objects, 49% free, 7372KB/14MB, paused 198us,97us total 102.106ms
+09-22 23:40:22.810  8544  8550 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.google.android.play.core.appupdate.internal.zzp
+09-22 23:40:22.810  8544  8550 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+09-22 23:40:23.634  8629  8703 E FirebaseCrashlytics: Settings request failed.
+09-22 23:40:24.512  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:24.552  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:24.708  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: ViewPostIme key 0
+09-22 23:40:24.708  8544  8544 D Activity: onKeyDown(KEYCODE_BACK)
+09-22 23:40:24.834  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: ViewPostIme key 1
+09-22 23:40:24.834  8544  8544 D Activity: onKeyUp(KEYCODE_BACK) isTracking()=true isCanceled()=false hasCallback=false
+09-22 23:40:25.081  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:25.154  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:25.334  8544  8544 W UserMessagingPlatform: Error making request.
+09-22 23:40:28.149  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: ViewPostIme key 0
+09-22 23:40:28.149  8544  8544 D Activity: onKeyDown(KEYCODE_BACK)
+09-22 23:40:28.240  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: ViewPostIme key 1
+09-22 23:40:28.241  8544  8544 D Activity: onKeyUp(KEYCODE_BACK) isTracking()=true isCanceled()=false hasCallback=false
+09-22 23:40:30.194  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:30.226  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:30.775  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:30.850  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: Failed to get FIS auth token
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: java.util.concurrent.ExecutionException: com.google.firebase.installations.FirebaseInstallationsException: Firebase Installations Service is unavailable. Please try again later.
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.android.gms.tasks.Tasks.zza(com.google.android.gms:play-services-tasks@@18.1.0:5)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.android.gms.tasks.Tasks.await(com.google.android.gms:play-services-tasks@@18.1.0:9)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.GmsRpc.setDefaultAttributesToBundle(GmsRpc.java:260)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.GmsRpc.startRpc(GmsRpc.java:222)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.GmsRpc.getToken(GmsRpc.java:180)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.FirebaseMessaging.lambda$blockingGetToken$10$com-google-firebase-messaging-FirebaseMessaging(FirebaseMessaging.java:610)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.FirebaseMessaging$$ExternalSyntheticLambda6.start(Unknown Source:6)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.RequestDeduplicator.getOrStartGetTokenRequest(RequestDeduplicator.java:67)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.FirebaseMessaging.blockingGetToken(FirebaseMessaging.java:606)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.SyncTask.maybeRefreshToken(SyncTask.java:121)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.messaging.SyncTask.run(SyncTask.java:91)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.android.gms.common.util.concurrent.zza.run(com.google.android.gms:play-services-basement@@18.3.0:2)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at java.lang.Thread.run(Thread.java:1119)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: Caused by: com.google.firebase.installations.FirebaseInstallationsException: Firebase Installations Service is unavailable. Please try again later.
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.installations.remote.FirebaseInstallationServiceClient.createFirebaseInstallation(FirebaseInstallationServiceClient.java:208)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.installations.FirebaseInstallations.registerFidWithServer(FirebaseInstallations.java:530)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.installations.FirebaseInstallations.doNetworkCallIfNecessary(FirebaseInstallations.java:385)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.installations.FirebaseInstallations.lambda$doRegistrationOrRefresh$2$com-google-firebase-installations-FirebaseInstallations(FirebaseInstallations.java:374)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at com.google.firebase.installations.FirebaseInstallations$$ExternalSyntheticLambda1.run(Unknown Source:4)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-22 23:40:32.729  8629  8718 E FirebaseMessaging: 	... 1 more
+09-22 23:40:33.847  8544  9303 E FilePhenotypeFlags: Config package com.google.android.gms.clearcut_client#com.dual.space.parallel.apps.multiaccounts.appscloner cannot use FILE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+09-22 23:40:34.202  8544  8760 W BillingClient: getSkuDetails() failed for queryProductDetailsAsync. Response code: 6
+09-22 23:40:34.202  8544  8761 W BillingClient: getSkuDetails() failed for queryProductDetailsAsync. Response code: 6
+09-22 23:40:35.889  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:35.924  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:36.571  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:36.662  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:37.567  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: ViewPostIme key 0
+09-22 23:40:37.567  8544  8544 D Activity: onKeyDown(KEYCODE_BACK)
+09-22 23:40:37.688  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: ViewPostIme key 1
+09-22 23:40:37.688  8544  8544 D Activity: onKeyUp(KEYCODE_BACK) isTracking()=true isCanceled()=false hasCallback=false
+09-22 23:40:37.926  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: ViewPostIme key 0
+09-22 23:40:37.927  8544  8544 D Activity: onKeyDown(KEYCODE_BACK)
+09-22 23:40:38.064  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: ViewPostIme key 1
+09-22 23:40:38.064  8544  8544 D Activity: onKeyUp(KEYCODE_BACK) isTracking()=true isCanceled()=false hasCallback=false
+09-22 23:40:38.728  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0
+09-22 23:40:39.673  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: handleAppVisibility mAppVisible = true visible = false
+09-22 23:40:39.679  8544  8679 D OpenGLRenderer: setSurface called with nullptr
+09-22 23:40:39.680  8544  8679 D OpenGLRenderer: setSurface() destroyed EGLSurface
+09-22 23:40:39.680  8544  8679 D OpenGLRenderer: destroyEglSurface
+09-22 23:40:39.683  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: performTraversals mFirst=false windowShouldResize=false viewVisibilityChanged=true mForceNextWindowRelayout=false params=null
+09-22 23:40:39.719  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)8 dur=32 res=0x2 s={false 0x0} ch=true seqId=0
+09-22 23:40:39.757  8544  8544 D InputTransport: Input channel destroyed: 'ClientS', fd=152
+09-22 23:40:39.776  8544  8679 D OpenGLRenderer: setSurface called with nullptr
+09-22 23:40:39.781  8544  8679 D OpenGLRenderer: trimMemory(TRIM_MEMORY_COMPLETE)::destroyRenderingContext
+09-22 23:40:39.781  8544  8679 D OpenGLRenderer: RenderThread::destroyRenderingContext()
+09-22 23:40:39.781  8544  8679 D OpenGLRenderer: RenderThread::setGrContext()
+09-22 23:40:39.794  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: stopped(true) old = false
+09-22 23:40:39.794  8544  8544 I ViewRootImpl@1f5187c[SplashActivity]: WindowStopped on com.dual.space.parallel.apps.multiaccounts.appscloner/com.dual.space.view.main.SplashActivity set to true
+09-22 23:40:39.827  8544  8544 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@a3e47c0[SplashActivity]
+09-22 23:40:40.771  8544  8606 I FA      : Application backgrounded at: timestamp_millis: 1758571838765
+09-22 23:40:41.721  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:41.759  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:42.297  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:42.382  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:42.867  8544  8598 E FirebaseMessaging: Topic sync or token retrieval failed on hard failure exceptions: java.util.concurrent.ExecutionException: java.io.IOException: SERVICE_NOT_AVAILABLE. Won't retry the operation.
+09-22 23:40:42.879  8629  8718 E FirebaseMessaging: Topic sync or token retrieval failed on hard failure exceptions: java.util.concurrent.ExecutionException: java.io.IOException: SERVICE_NOT_AVAILABLE. Won't retry the operation.
+09-22 23:40:47.441  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:47.478  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:48.087  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:48.185  8544  8557 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:57.465  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:57.504  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:58.042  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:40:58.165  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:03.219  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:03.264  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:03.857  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:03.958  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:04.376  8544  8679 D OpenGLRenderer: setSurface called with nullptr
+09-22 23:41:09.019  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:09.075  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:09.612  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:09.720  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:15.041  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:15.113  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:15.593  8544  8679 D OpenGLRenderer: setSurface called with nullptr
+09-22 23:41:15.688  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:15.802  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:20.851  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:20.897  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:21.449  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:21.541  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:26.599  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:26.643  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:27.157  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:27.248  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:32.530  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:32.607  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:33.126  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:33.190  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:38.252  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:38.287  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:38.806  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:38.897  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:43.980  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:44.053  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:44.606  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:44.760  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:49.831  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:49.880  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:50.406  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:50.497  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:41:59.963  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:00.023  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:00.559  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:00.641  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:07.592  8544  8679 D OpenGLRenderer: setSurface called with nullptr
+09-22 23:42:10.777  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:10.800  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:11.348  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:11.427  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:16.498  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:16.554  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:17.165  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:17.269  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:22.318  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:22.351  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:22.919  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:23.065  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:28.132  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:28.188  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:28.736  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:28.831  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:29.738  8544  8872 I CameraManagerGlobal: postSingleUpdate device: camera id 1 status STATUS_NOT_AVAILABLE
+09-22 23:42:29.761  8544  8872 I CameraManagerGlobal: Camera 1 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.android.smartface API Level 2User Id 0
+09-22 23:42:29.962  8544  8872 I CameraManagerGlobal: Camera 1 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.android.smartface API Level 2User Id 0
+09-22 23:42:30.797  8544  8872 I CameraManagerGlobal: Camera 1 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.android.smartface API Level 2User Id 0
+09-22 23:42:30.889  8544  8872 I CameraManagerGlobal: postSingleUpdate device: camera id 1 status STATUS_PRESENT
+09-22 23:42:30.889  8544  8872 I CameraManagerGlobal: Camera 1 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.android.smartface API Level 2User Id 0
+09-22 23:42:33.884  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:33.918  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:34.428  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:34.524  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:39.581  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:39.631  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:40.146  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:40.267  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:45.371  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:45.477  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:46.232  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:46.333  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:51.405  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:51.431  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:51.969  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:52.047  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:57.181  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:57.211  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:57.768  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:42:57.853  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:02.947  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:03.066  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:03.844  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:09.076  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:09.117  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:09.645  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:09.758  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:15.313  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:15.390  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:16.114  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:16.296  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:21.330  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:21.367  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:21.968  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:22.105  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:27.175  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:27.212  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:27.707  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:27.809  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:28.704  8544  8679 D OpenGLRenderer: setSurface called with nullptr
+09-22 23:43:32.838  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:32.858  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:33.436  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:33.606  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:38.666  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:38.707  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:39.271  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:39.372  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:44.453  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:44.513  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:45.110  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:45.215  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:50.249  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:50.272  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:50.831  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:50.925  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:55.969  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:56.000  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:56.569  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:43:56.694  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:01.749  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:01.793  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:02.367  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:02.513  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:07.541  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:07.564  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:08.127  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:08.249  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:14.655  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:14.701  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:15.306  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:15.405  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:20.463  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:20.515  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:21.212  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:21.341  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:26.415  8544  8555 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:26.460  8544  8555 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:27.022  8544  8555 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:27.137  8544  8555 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:32.162  8544  8555 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:32.183  8544  8555 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:32.722  8544  8555 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:32.827  8544  8555 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:37.880  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:37.920  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:38.458  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:38.542  8544 10031 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:43.593  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:43.642  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:44.150  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:44.261  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:49.317  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:49.351  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:49.878  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:49.959  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:55.012  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:55.045  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:55.626  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:44:55.771  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:00.826  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:00.875  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:01.410  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:01.485  8544  8872 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:06.555  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:06.600  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:07.146  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:07.241  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:14.210  8544  8679 D OpenGLRenderer: setSurface called with nullptr
+09-22 23:45:16.234  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:16.255  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:16.770  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_IDLE for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:16.841  8544  8649 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:21.894  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_OPEN for client com.samsung.adaptivebrightnessgo API Level 2User Id 0
+09-22 23:45:21.939  8544  8554 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_ACTIVE for client com.samsung.adapti
